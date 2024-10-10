@@ -36,6 +36,7 @@ void calcula_classificacao(PILOTO v[N],PILOTO *campeao,PILOTO *vice)
         {
             *vice=*campeao;
             *campeao=v[i];
+            p2=p1;
             p1=soma[i];
         }
         else if (soma[i]>p2)
